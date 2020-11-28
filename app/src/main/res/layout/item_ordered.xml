@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#FF9800"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/boba" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:fontFamily="@font/russo_one"
+                android:gravity="center"
+                android:text="Delete"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="229dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/boogaloo"
+                android:paddingTop="12dp"
+                android:text="Jus Mangga"
+                android:textColor="#000000"
+                android:textSize="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="236dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/boogaloo"
+                    android:text="Rp. 15000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/quantity_ordered"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/boogaloo"
+                    android:paddingLeft="5dp"
+                    android:text="1"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/total_oneproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/boogaloo"
+                android:paddingTop="10dp"
+                android:text="Total Rp. 30000"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
